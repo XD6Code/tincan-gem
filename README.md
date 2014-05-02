@@ -1,5 +1,4 @@
 [![Gem Version](http://img.shields.io/gem/v/tincan-api.svg?style=flat)][gem]
-[![Gemnasium](http://img.shields.io/gemnasium/XD6Code/tincan-gem.svg)][gemnasium]
 [![License](http://img.shields.io/badge/License-MIT-yellow.svg?style=flat)][license]
 
 
@@ -44,5 +43,4 @@ Doucmentation can be found on [rubydoc.info][RubyDocs]
 [RubyDocs]:  http://rubydoc.info/github/XD6Code/tincan-gem/master/frames
 
 [gem]:       https://rubygems.org/gems/tincan-api
-[gemnasium]: https://gemnasium.com/XD6Code/tincan-gem
 [license]:   https://github.com/XD6Code/tincan-gem/blob/master/LICENSE
