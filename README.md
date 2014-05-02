@@ -5,18 +5,17 @@
 # [TinCan Storage API][tincan] Gem
 
 ## Installation
-#### From Ruby Gems
+#### From Ruby Gems:
 ```
 gem install tincan-api
 ```
-#### From Github
+#### From Github:
 ```
 git clone https://github.com/XD6Code/tincan-gem.git
 cd tincan-gem
 gem build tincan-api.gemspec
 gem install tincan-api-*.gem
 ```
-
 
 ## Usage
 Demo queries can be found on the [TinCan Storage API demo page][tincan], however in the ruby gem they're inputted as [ruby hashes][ruby-hash].
@@ -35,9 +34,13 @@ demo.update(query) #=> Returns true if successful
 demo.delete(query) #=> returns true if successful
 ```
 
+## Documentation
+Doucmentation can be found on [rubydoc.info][RubyDocs]
 
-[tincan]: http://apps.tincan.me/
+
+[tincan]:    http://apps.tincan.me/
 [ruby-hash]: http://www.ruby-doc.org/core-2.1.1/Hash.html
+[RubyDocs]:  http://rubydoc.info/github/XD6Code/tincan-gem/master/frames
 
-[gem]: https://rubygems.org/gems/tincan-api
-[license]: https://github.com/XD6Code/tincan-gem/blob/master/LICENSE
+[gem]:       https://rubygems.org/gems/tincan-api
+[license]:   https://github.com/XD6Code/tincan-gem/blob/master/LICENSE
