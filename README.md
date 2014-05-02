@@ -1,4 +1,4 @@
-[![Gem Version](http://img.shields.io/gem/v/dword-hex-converter.svg?style=flat)][gem]
+[![Gem Version](http://img.shields.io/gem/v/tincan-api.svg?style=flat)][gem]
 [![License](http://img.shields.io/badge/License-MIT-yellow.svg?style=flat)][license]
 
 
