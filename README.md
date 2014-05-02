@@ -19,7 +19,9 @@ gem install tincan-api-*.gem
 
 
 ## Usage
-Demo queries can be found on the [TinCan Storage API demo page][tincan]
+Demo queries can be found on the [TinCan Storage API demo page][tincan], however in the ruby gem they're inputted as [ruby hashes][ruby-hash].
+
+**Example Query:** ```{:query => {:key => "value"}, :options => {:count => true}}```
 
 ```ruby
 require "tincan"
@@ -35,6 +37,7 @@ demo.delete(query) #=> returns true if successful
 
 
 [tincan]: http://apps.tincan.me/
+[ruby-hash]: http://www.ruby-doc.org/core-2.1.1/Hash.html
 
 [gem]: https://rubygems.org/gems/tincan-api
 [license]: https://github.com/XD6Code/tincan-gem/blob/master/LICENSE
