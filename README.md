@@ -5,11 +5,11 @@
 # [TinCan Storage API][tincan] Gem
 
 ## Installation
-#### From Ruby Gems:
+#### From Ruby Gems
 ```
 gem install tincan-api
 ```
-#### From Github:
+#### From Github
 ```
 git clone https://github.com/XD6Code/tincan-gem.git
 cd tincan-gem
