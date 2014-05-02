@@ -1,4 +1,5 @@
 [![Gem Version](http://img.shields.io/gem/v/tincan-api.svg?style=flat)][gem]
+[![Code Climate Score](http://img.shields.io/codeclimate/github/XD6Code/tincan-gem.svg?style=flat)][Code CLimate]
 [![License](http://img.shields.io/badge/License-MIT-yellow.svg?style=flat)][license]
 
 
@@ -38,9 +39,10 @@ demo.delete(query) #=> returns true if successful
 Doucmentation can be found on [rubydoc.info][RubyDocs]
 
 
-[tincan]:    http://apps.tincan.me/
-[ruby-hash]: http://www.ruby-doc.org/core-2.1.1/Hash.html
-[RubyDocs]:  http://rubydoc.info/github/XD6Code/tincan-gem/master/frames
+[tincan]:       http://apps.tincan.me/
+[ruby-hash]:    http://www.ruby-doc.org/core-2.1.1/Hash.html
+[RubyDocs]:     http://rubydoc.info/github/XD6Code/tincan-gem/master/frames
 
-[gem]:       https://rubygems.org/gems/tincan-api
-[license]:   https://github.com/XD6Code/tincan-gem/blob/master/LICENSE
+[gem]:          https://rubygems.org/gems/tincan-api
+[Code CLimate]: https://codeclimate.com/github/XD6Code/tincan-gem
+[license]:      https://github.com/XD6Code/tincan-gem/blob/master/LICENSE
