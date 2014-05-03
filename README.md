@@ -22,6 +22,7 @@ gem install tincan-api-*.gem
 Demo queries can be found on the [TinCan Storage API demo page][tincan], however in the ruby gem they can be inputted as a [Hash][ruby-hash] or [JSON][json].
 
 **Example Query (Hash):** ```{:query => {:key => "value"}, :options => {:count => true}}```
+
 **Example Query (JSON):** ```'{"key" => "value"}'```
 
 ```ruby
