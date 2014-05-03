@@ -10,17 +10,17 @@ class TinCan
     end
 
     [:insert, :find, :update, :remove].each do |method|
-    	define_method method do |query|
-    		case query
-	    		when Hash
-	    			return read_response(req(method, query.to_json))
-				when String
-					return read_response(req(method, query)) # Assume it's JSON
-				else
-					raise "Query needs to either be a hash or a JSON string"
-			end
-		end
-	end
+        define_method method do |query|
+            case query
+                when Hash
+                    return read_response(req(method, query.to_json))
+                when String
+                    return read_response(req(method, query)) # Assume it's JSON
+                else
+                    raise "Query needs to either be a hash or a JSON string"
+            end
+        end
+    end
 
     def validate
         return  read_response(
