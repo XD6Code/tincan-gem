@@ -2,7 +2,9 @@
 
 class TinCan
     include HTTParty
-    base_uri "apps.tincan.me"
+    base_uri "apps.tincan.me:443"
+    ssl_ca_file File.expand_path(File.join(File.dirname(__FILE__), "ssl" , "tincan.crt"))
+    headers "ContentType" => "application/json"
     attr_accessor :id, :key, :name
 
     def initialize(app_id, app_key, app_name)
@@ -26,8 +28,7 @@ class TinCan
         return  read_response(
                     self.class.get(
                         "/#{@name}/authorized",
-                        :basic_auth => {:username => @id, :password => @key},
-                        :headers => {"ContentType" => "application/json"}
+                        :basic_auth => {:username => @id, :password => @key}
                     ).body
                 )
     end
@@ -37,8 +38,7 @@ class TinCan
             return  self.class.post(
                         "/#{@name}/#{type}",
                         :body => query,
-                        :basic_auth => {:username => @id, :password => @key},
-                        :headers => {"ContentType" => "application/json"}
+                        :basic_auth => {:username => @id, :password => @key}
                     ).body
         end
 
