@@ -7,5 +7,5 @@ rvm:
   - ruby-head
 addons:
   code_climate:
-  	repo_token: fdcf6734058cf96fbb136bf50a755e9011bbc93ffed08e0c5717b9c025166c45
+    repo_token: fdcf6734058cf96fbb136bf50a755e9011bbc93ffed08e0c5717b9c025166c45
 script: rspec spec
