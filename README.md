@@ -1,6 +1,7 @@
 [![Gem Version](http://img.shields.io/gem/v/tincan-api.svg?style=flat)][gem]
 [![Build Status](http://img.shields.io/travis/XD6Code/tincan-gem.svg?style=flat)][travis]
 [![Code Climate Score](http://img.shields.io/codeclimate/github/XD6Code/tincan-gem.svg?style=flat)][Code Climate]
+[![Code Climate Coverage](http://img.shields.io/codeclimate/coverage/github/XD6Code/tincan-gem.svg)][Code Climate]
 [![License](http://img.shields.io/badge/License-MIT-yellow.svg?style=flat)][license]
 
 # [TinCan Storage API][tincan] Gem
