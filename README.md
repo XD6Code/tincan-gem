@@ -1,6 +1,6 @@
 [![Gem Version](http://img.shields.io/gem/v/tincan-api.svg?style=flat)][gem]
 [![Build Status](http://img.shields.io/travis/XD6Code/tincan-gem.svg?style=flat)][travis]
-[![Code Climate Score](http://img.shields.io/codeclimate/github/XD6Code/tincan-gem.svg?style=flat)][Code CLimate]
+[![Code Climate Score](http://img.shields.io/codeclimate/github/XD6Code/tincan-gem.svg?style=flat)][Code Climate]
 [![License](http://img.shields.io/badge/License-MIT-yellow.svg?style=flat)][license]
 
 # [TinCan Storage API][tincan] Gem
@@ -57,5 +57,5 @@ rspec spec --format documentation
 
 [gem]:          https://rubygems.org/gems/tincan-api
 [travis]:       https://travis-ci.org/XD6Code/tincan-gem
-[Code CLimate]: https://codeclimate.com/github/XD6Code/tincan-gem
+[Code Climate]: https://codeclimate.com/github/XD6Code/tincan-gem
 [license]:      https://github.com/XD6Code/tincan-gem/blob/master/LICENSE
