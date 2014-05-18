@@ -23,7 +23,7 @@ Demo queries can be found on the [TinCan Storage API demo page][tincan], however
 
 **Example Query (Hash):** ```{:query => {:key => "value"}, :options => {:count => true}}```
 
-**Example Query (JSON):** ```'{"key" => "value"}'```
+**Example Query (JSON):** ```'{"key":"value"}'```
 
 ```ruby
 require "tincan"
