@@ -37,9 +37,23 @@ demo.update(query) #=> Returns true if successful
 demo.remove(query) #=> returns true if successful
 ```
 
+# Testing
+Testing is done with [RSpec][rspec] for now.
+```shell
+gem install rspec
+cd /path/to/downloaded/repo
+rspec
+```
+
+To get a better output of what it's doing (Get told what it's doing rather than dots):
+```shell
+rspec --format documentation
+```
+
 [tincan]:       http://apps.tincan.me/
 [ruby-hash]:    http://www.ruby-doc.org/core-2.1.1/Hash.html
 [json]:         http://www.json.org/
+[rspec]:        http://rspec.info/
 
 [gem]:          https://rubygems.org/gems/tincan-api
 [Code CLimate]: https://codeclimate.com/github/XD6Code/tincan-gem
