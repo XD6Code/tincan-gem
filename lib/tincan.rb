@@ -17,9 +17,13 @@ class TinCan
                 when Hash
                     return read_response(req(method, query.to_json))
                 when String
-                    return read_response(req(method, query)) # Assume it's JSON
+                	if is_json?(query)
+                		return read_response(req(method, query))
+            		else
+            			raise ArgumentError, "Query must be valid JSON if it is a String"
+        			end
                 else
-                    raise "Query needs to either be a hash or a JSON string"
+                    raise ArgumentError, "Query argument must be a string or hash"
             end
         end
     end
@@ -45,5 +49,15 @@ class TinCan
         def read_response(res, has_data = false)
             res = JSON.parse(res)
             return res["data"] || res["success"] || res["error"]
+        end
+
+        def is_json?(json)
+        	return false unless json.is_a?(String)
+        	begin
+        		JSON.parse(json)
+        		return true
+        	rescue JSON::ParserError
+        		return false
+        	end
         end
 end
