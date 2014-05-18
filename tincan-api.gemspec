@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
     s.name          = "tincan-api"
-    s.version       = "1.2.1"
-    s.date          = "2014-05-08"
+    s.version       = "1.2.2"
+    s.date          = "2014-05-17"
     s.summary       = "Ruby gem for the TinCan Storage API"
     s.authors       = ["Charles Hollenbeck"]
     s.email         = "charles@hollenbeck.pw"
