@@ -42,12 +42,12 @@ Testing is done with [RSpec][rspec] for now.
 ```shell
 gem install rspec
 cd /path/to/downloaded/repo
-rspec
+rspec spec
 ```
 
 To get a better output of what it's doing (Get told what it's doing rather than dots):
 ```shell
-rspec --format documentation
+rspec spec --format documentation
 ```
 
 [tincan]:       http://apps.tincan.me/
